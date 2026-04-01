@@ -1,0 +1,41 @@
+Subject: New Contact Form Submission from {{from_name}}
+
+---
+
+Hello,
+
+You have received a new inquiry from someone interested in M Square HR Consultant services.
+
+VISITOR INFORMATION
+═══════════════════════════════════════════════════════════════
+
+Name:           {{from_name}}
+Email:          {{from_email}}
+Phone:          {{phone}}
+Company:        {{company}} {{#company}}{{/company}}{{^company}}(Not provided){{/company}}
+
+SERVICE INQUIRY
+═══════════════════════════════════════════════════════════════
+
+Service Interested In:  {{service}}
+
+MESSAGE
+═══════════════════════════════════════════════════════════════
+
+{{message}}
+
+─────────────────────────────────────────────────────────────────
+
+NEXT STEPS:
+• Reply to this email to contact {{from_name}} directly
+• The reply-to address is already set to: {{from_email}}
+• Phone: {{phone}}
+
+This is an automated notification from your M Square HR Consultant website.
+Contact Form Received on: [Current Date & Time]
+
+═══════════════════════════════════════════════════════════════
+© M Square HR Consultant | www.msquarehr.com
+B- 501, K Ville, Adarsh Nagar, Kilvale Ravet, Pune – 412101
+Phone: +91 9545551435 | Email: msquarehr@gmail.com
+═══════════════════════════════════════════════════════════════
